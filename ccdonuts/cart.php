@@ -54,7 +54,7 @@ if (!empty($_REQUEST['id']) && !empty($_REQUEST['name']) && !empty($_REQUEST['pr
 <?php
 // 商品一覧表示（カートに入っているすべて）
 if (!empty($_SESSION['products'])) {
-$pdo=new PDO('mysql:host=localhost;dbname=ss367069_ccdonuts;charset=utf8', 'ss367069_adachi', '12345asdfg');
+$pdo=new PDO('mysql:‐‐-‐‐);
 
     foreach ($_SESSION['products'] as $id => $product) {
         // 商品情報をDBから取得（画像など）
