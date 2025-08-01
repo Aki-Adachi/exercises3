@@ -15,7 +15,7 @@
 <hr>
 
 <?php
-$pdo=new PDO('mysql:host=localhost;dbname=ss367069_ccdonuts;charset=utf8', 'ss367069_adachi', '12345asdfg');
+$pdo=new PDO('mysql:‐‐-‐‐);
 if (isset($_SESSION['customers'])) {
 	$id=$_SESSION['customers']['id'];
 	$sql=$pdo->prepare('select * from customers where id!=? and mail=?');
