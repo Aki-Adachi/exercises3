@@ -16,7 +16,7 @@
 <section class="lowerPage">
 <?php
 unset($_SESSION['customer']);
-$pdo=new PDO('mysql:host=localhost;dbname=ss367069_ccdonuts;charset=utf8', 'ss367069_adachi', '12345asdfg');
+$pdo=new PDO('mysql:‐‐‐‐‐);
 $sql=$pdo->prepare('select * from customers where mail=? and password=?');
 $sql->execute([$_REQUEST['mail'], $_REQUEST['password']]);
 foreach ($sql as $row) {
