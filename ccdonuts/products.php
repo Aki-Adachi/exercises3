@@ -20,7 +20,7 @@
     <article class="productMenu">
       <h3>メインメニュー</h3>
         <?php
-        $pdo=new PDO('mysql:host=localhost;dbname=ss367069_ccdonuts;charset=utf8', 'ss367069_adachi', '12345asdfg');
+        $pdo=new PDO('mysql:‐‐-‐‐);
         $sql = $pdo->query('SELECT * FROM products');
         echo '<div class="productList">';
         foreach ($sql as $row) {
