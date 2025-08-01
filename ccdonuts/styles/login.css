@@ -1,0 +1,59 @@
+@charset "utf-8" ;
+
+h2 {
+    font-size: 20px;
+    color: #000;
+    font-weight: normal;
+    width: fit-content;
+    margin: 31px auto 0;
+}
+
+.line {
+    color: #FFD233;
+    border-width: 1px;
+    width: 80px;
+    margin: 12px auto 60px;
+}
+
+.frame {
+    width: 295px;
+    margin: 0 auto;
+    padding: 20px 12px;
+    border: 2px solid #F7D1CD;
+    /* text-align: center; */
+    line-height: 12px;
+    margin-bottom: 20px;
+}
+
+input[type="mail"],input[type="password"] {
+    width: 100%;
+    border: 1px solid #7F5539;
+    background-color: #fff;
+    margin: 8px 0 20px;
+}
+
+.login input[type="submit"] {
+    color: #fff;
+    background-color: #7F5539;
+    font-size: 12px;
+    display: flex;
+    height: 36px;
+    width: 160px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.lowerPageLink {
+    display: block;
+    margin:0 0 8px auto;
+    text-align: right;
+}
+
+.memberRegistration {
+
+    text-decoration: underline;
+    margin:20px auto 12px;
+    text-align: center;
+}
