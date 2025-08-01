@@ -5,7 +5,7 @@
 
 <?php
 
-$pdo=new PDO('mysql:host=localhost;dbname=ss367069_ccdonuts;charset=utf8', 'ss367069_adachi', '12345asdfg');
+$pdo=new PDO('mysql:‐‐-‐‐);
 
 foreach ($pdo->query('select * from products') as $row) {
 	echo '<p>';
