@@ -1,0 +1,100 @@
+@charset "utf-8" ;
+
+
+.detail {
+    font-size: 16px;
+    line-height:25.6px;
+    padding: 20px;
+    /* text-align: center; */
+}
+
+.detailImg {
+    width: 335px;
+    height: 335px;
+    margin: 0 auto;
+    }
+
+.productName {
+    margin: 20px 0px;
+}
+
+.productDetail {
+    margin: 20px 0px;
+}
+
+.tax {
+    margin: 20px auto 40px;
+}
+
+.operation {
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    height: 36px;
+    color: black;
+    margin-bottom: 60px;
+}
+
+.operation a {
+    margin: 0px 4px;
+}
+
+.operation img {
+    border: 1px solid #7F5539;
+    padding: 6px;
+}
+
+.operation input[type="text"] {
+    width: 56px;
+    border: 1px solid #7F5539;
+}
+
+input[type="number"] {
+    width:56px;
+    text-align: right;
+    border: 1px solid #7F5539;
+}
+
+input[type="submit"] {
+    color: #fff;
+    background-color: #7F5539;
+    font-size: 12px;
+    display: flex;
+    height: 36px;
+    width: 160px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+@media screen and (min-width: 768px)
+{
+
+.detail {
+    font-size: 24px;
+    line-height: 38.4px;
+    width: 1200px;
+    margin:0 auto;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.detailImg {
+    width: 540px;
+    height: 540px;    
+}
+
+.productTool {
+    width: 460px;
+}
+
+input[type="number"] {
+    width:80px;
+    text-align: right;
+    border: 1px solid #7F5539;
+}
+
+}

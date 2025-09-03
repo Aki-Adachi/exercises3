@@ -1,0 +1,74 @@
+@charset "utf-8" ;
+
+.customers {
+    /* width: 375px; */
+    margin: 0 auto;
+    /* padding: 20px 40px 80px; */
+}
+
+.customers input[type="text"],input[type="address"],input[type="mail"], input[type="password"] {
+    width: 100%;
+    border: 1px solid #7F5539;
+    background-color: #fff;
+    margin: 8px 0 20px;
+    height: 20px;
+}
+
+.customers input[type="text"]{
+    color: #000;
+}
+
+.label {
+    color: red;
+    padding-left: 4px;
+}
+
+.caution {
+    margin-top: 8px;
+    color: red;
+    font-size: 8px;
+}
+
+.postcode { 
+    display: flex;
+    width: 60px;
+}
+
+.confirmBox {
+    padding: 20px 40px 80px;
+}
+
+.confirm {
+    height: 20px;
+    border-left: 1px solid;
+    margin: 8px 0 20px;
+    padding: 4px;
+    color: #000;
+}
+
+.lowerPage  {
+    padding: 32px 40px 80px;
+}
+
+.lowerPage hr {
+    color: #FFD233;
+    width: 80px;
+    margin: 12px auto 40px;
+}
+
+.customers input[type="submit"] {
+    color: #fff;
+    background-color: #7F5539;
+    font-size: 12px;
+    display: flex;
+    height: 36px;
+    width: 160px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 0;
+}
+
+.customers .lowerPageLink {
+    margin-top: 40px;
+}

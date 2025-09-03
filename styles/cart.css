@@ -1,0 +1,155 @@
+@charset "utf-8" ;
+
+.cart {
+    padding: 20px;
+}
+
+.cartFrame {
+    font-size: 16px;
+    border: 2px solid #FFD233;
+    padding:20px 0 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cartFrame a {
+    color: #fff;
+    background-color: #BF0000;
+    font-size: 12px;
+    display: flex;
+    height: 48px;
+    width: 160px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.cartProducts {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* .cartProducts img {
+    width: 335px;
+    height: 335px;
+}
+
+.favorite {
+    max-width: 10px;
+} */
+
+.cartItem form input[type="submit"]{
+    color: #000;
+    background-color: #ccc;
+    font-size: 12px;
+    display: flex;
+    height: 28px;
+    width: 140px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.deleteLink {
+    display: block;
+    text-decoration: underline;
+    color:#000;
+    padding-bottom: 40px;
+}
+
+.none {
+    font-size: 16px;
+    font-weight: bold;
+    margin:20px auto;
+}
+
+.continue {
+    color: #fff;
+    background-color: #7F5539;
+    font-size: 12px;
+    display: flex;
+    height: 36px;
+    width: 160px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 80px auto 0;
+}
+
+
+@media screen and (min-width: 768px)
+{
+
+
+.cart {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 80px 80px 120px;
+    font-size: 24px;
+}
+
+.cartFrame {
+    font-size: 24px;
+}
+
+.cartItem {
+    display: flex;
+    margin: 40px auto;
+}
+
+.cartItem img {
+    width: 335px;
+    height: 335px;
+    align-items: center;
+}
+
+.cartItem hr {
+    width: 100%;
+    margin: 16px auto 20px;
+}
+
+.cartFlex{
+    width: 665px;
+    margin-left: 40px;
+    text-align: right;
+}
+
+.cartFlex2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tax {
+    margin: 0;
+}
+
+.productName {
+    text-align: left;
+}
+
+.cartItem form input[type="submit"] {
+    margin: 24px 0 100px auto;
+    font-size: 20px;
+    width: 160px;
+    height: 36px;
+}
+
+.deleteLink {
+    padding-bottom: 20px;
+}
+
+.cartFrame {
+    padding: 40px 0;
+}
+
+.cartFrame a {
+    font-size: 20px;
+    width: 260px;
+    height: 50px;
+    margin-top: 40px;
+}
+
+
+}

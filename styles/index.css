@@ -1,0 +1,158 @@
+@charset "utf-8" ;
+
+.welcome {
+    height:36px;
+    padding: 12px 0 12px 20px;
+}
+
+.link {
+    padding:20px;
+    margin: 0 auto;
+}
+
+.linkImg {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.philosophy {
+    background-image: url(../images/spBackground.png);
+    height: 568px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.philosophy h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    padding:100px 0 20px;
+}
+
+.philosophy h3 {
+    font-size: 16px;
+    padding-bottom: 60px;
+}
+
+.connect {
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
+.ranking {
+    height: 1511px;
+    font-size: 16px;
+    line-height: 25.6px;
+    padding:0px 20px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ranking img {
+    margin:20px auto;
+}
+
+.section4 h2 {
+    font-size: 20px;
+    color: #000;
+    font-weight: normal;
+    width: fit-content;
+    margin: 31px auto 0;
+}
+
+.section4 hr {
+    color: #FFD233;
+    width: 140px;
+    margin: 12px auto 60px;
+}
+
+.rankingArticle {
+    width:157.5px;
+    height:fit-content;
+}
+
+.tax {
+    margin:20px auto;
+    color:#BF0000;
+}
+
+.inCart {
+    color: #fff;
+    background-color: #7F5539;
+    font-size: 12px;
+    display: flex;
+    height: 36px;
+    width: 148px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px)
+{
+
+.pc { display: block; }
+.sp { display: none; }
+
+.section1 img {
+    width: 100%;
+}
+
+.philosophy {
+    background-image: url(../images/pcBackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+img {
+    object-fit: contain;
+}
+
+.welcome {
+    padding: 12px 103px 0;
+}
+
+.link {
+    width: 1200px;
+    margin: 80px auto; 
+}
+
+.linkImg {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkImg img {
+    width: 480px;
+    height: 480px;
+}
+
+.ranking {
+    font-size: 24px;
+}
+
+.section4 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section4 h2 {
+    margin: 100px auto 20px;
+    font-size: 32px;
+}
+
+.section4 hr {
+    width: 224px;
+}
+
+.rankingArticle {
+    width: 320px;
+}
+
+}
